@@ -31,7 +31,7 @@ destination = "/tmp/"
 
 
 provisioner "shell" {
-script = "./userdata.sh"
+script = "./setup.sh"
 execute_command = "sudo {{.Path}}"
 }
 }
